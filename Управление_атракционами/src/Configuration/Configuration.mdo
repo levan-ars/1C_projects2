@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db9cffe0-f44f-4020-8496-78cd6035deaf">
+  <name>УправлениенАтракционами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управлениен атракционами</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b5b81dc3-36d4-4bbf-9b95-e4d372118d75"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="770b2a03-496d-4971-80fe-c0e29e6220ef"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="1466e03d-35b6-441f-8ebe-073b26ea499a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="aeeac857-a177-4732-8239-e015bcab0610"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="934f61e3-d7ba-488a-8228-f4552af3490e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="18ba16b6-c713-41a6-98ae-5ea7e9d9ce48"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="f93cf0a6-79b4-4591-9996-e4461176e7a7"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Рога и копыта</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Рога и копыта</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="061fedbd-9142-44d8-a7e2-1de37cab6662">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.Кассир</roles>
+  <roles>Role.ОператорАттракциона</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <catalogs>Catalog.Атракционы</catalogs>
+  <documents>Document.ПосещенияАттракциона</documents>
+  <documents>Document.ПродажаБилета</documents>
+  <reports>Report.Продажи</reports>
+  <reports>Report.СтатистикаПосещений</reports>
+  <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>
